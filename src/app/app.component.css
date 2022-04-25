@@ -1,0 +1,12 @@
+.card-body img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .card-body h4, p {
+    position: relative;
+    top: 5px;
+    left: 10px;
+  }
