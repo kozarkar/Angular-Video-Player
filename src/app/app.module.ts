@@ -13,11 +13,17 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatChipsModule} from '@angular/material/chips';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { VideoplayerComponent } from './videoplayer/videoplayer.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    VideoplayerComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +35,11 @@ import {MatIconModule} from '@angular/material/icon';
     HttpClientModule,
     AppRoutingModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule,
+    MatChipsModule,
+    DragDropModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,31 +7,34 @@
       "logo":"/assets/icons8-google-earth.svg",
       "upload_time": "12 minutes ago",
       "views" : "121K",
+      "thumb" : "/assets/thumb1.png",
       "url" : "http://static.videogular.com/assets/videos/videogular.mp4"
     },
     {
       "id": 2,
-      "title": "Looney Tunes - Episode 1",
+      "title": "Big Buck Bunny - Episode 1",
       "channel": "Cartoon Network",
       "logo": "/assets/icons8-cartoon-network.svg",
       "upload_time": "45 minutes ago",
       "views" : "11K",
+      "thumb" : "/assets/thumb2.png",
       "url" : "http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov"
     },
     {
       "id": 3,
       "title": "Story of the witch",
       "channel": "Disney Now",
-      "logo": "/assets/icons8-disney-plus-64 (1).png",
+      "logo": "/assets/icons8-disney-plus-48.png",
       "upload_time": "2 hours ago",
       "views" : "500K",
+      "thumb" : "/assets/thumb3.png",
       "url" : "http://static.videogular.com/assets/videos/elephants-dream.mp4"
     },
     {
       "id": 4,
-      "title": "Video 4",
+      "title": "360 Cam -Home Tour",
       "channel": "Typicode",
-      "logo" : "",
+      "logo" : "/assets/icons8-camera-64.png",
       "upload_time": "5 hours ago",
       "views" : "19K",
       "url" : "http://static.videogular.com/assets/videos/vr-demo.mp4"

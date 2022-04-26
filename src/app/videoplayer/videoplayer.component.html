@@ -1,0 +1,22 @@
+
+<div *ngIf="showMain" class="row">
+  <div (click)="singleView(video.id-1)" class="card" style="width: 22rem; margin-left: 40px; margin-top: 0px; background-color: transparent; border: 2cm; box-shadow: 20cm;" *ngFor="let video of videoList">
+    <video width="320" height="240" controls poster={{video.thumb}}>
+      <source src={{video.url}} type="video/mp4">
+    </video>
+    <div class="card-body">
+      <img src={{video.logo}} >
+      <h4 class="card-title" style="font-weight: 500; font-size: medium; color: white; margin-bottom: 5px;">{{video.title}} </h4>
+      <p style="color: gray; margin-bottom: 0px;">{{video.channel}}</p>
+      <p style="color: gray; margin-left: 0px;">{{video.views}} &nbsp;•  {{video.upload_time}}</p>
+    </div> 
+  </div>
+</div>
+
+<div *ngIf="!showMain" class="row">
+  <div class="card" style="width: 62rem; margin-left: 40px; margin-top: 15px; background-color: black; border: 2cm;">
+    <video width="960" height="620" controls>
+      <source src={{single.url}} type="video/mp4">
+    </video>
+  </div>
+</div>
