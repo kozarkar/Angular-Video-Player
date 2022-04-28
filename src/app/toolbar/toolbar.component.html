@@ -1,10 +1,10 @@
 <mat-drawer-container class="example-container">
-  <mat-drawer mode="side" opened style="background-color: #2a2d30; width: 230px; overflow: hidden;">
-    <div class="title" style="margin-left: 20px;margin-top: 20px; height: 40px;" (click)="redirect()">
+  <mat-drawer mode="side" opened style="background-color: #2a2d30; width: 230px;">
+    <div class="title" style="margin-left: 20px;margin-top: 10px; height: 40px;" (click)="redirect()">
     <img src="assets\icons8-youtube.svg"><span  style="color: white; font-size: 20px;">VideoTube<sup
       style="font-size: 12px;">IN</sup></span>
     </div>
-    <hr style="color: white;margin-top: 9px;"> 
+    <hr style="color: white;margin-top: 20px;"> 
 
     <div (click)="redirect()" class="sides">
       <mat-icon class="icons">home</mat-icon>
@@ -43,7 +43,7 @@
     <span style=" margin-left: 15px; " class="side-text">comment, and subscribe. </span>
     </div>
     <div >
-      <button mat-raised-button color="primary" class="signin">
+    <button class="signin">
       <img style="height:30px; color:#2083d4;" src="/assets/user-icon.png">SIGN IN</button>
     </div>
     
@@ -80,8 +80,8 @@
     </div>
   </mat-drawer>
  
-   <mat-drawer-content style="background-color: #2a2d30; overflow: hidden; height: 100%; width: 100%;">
-    <mat-toolbar style="background-color: #2a2d30; margin-bottom: none; overflow: hidden;">
+   <mat-drawer-content style="background-color: #2a2d30;">
+    <mat-toolbar style="background-color: #2a2d30; margin-bottom: none;">
       
       <div class="input-group" style="width: 40%; margin-left: 25%;">
         <input type="text" class="form-control search" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
