@@ -12,7 +12,6 @@ export interface Chips {
   styleUrls: ['./toolbar.component.css']
 })
 
-
 export class ToolbarComponent implements OnInit {
 
   showSide: boolean = true;
@@ -26,19 +25,24 @@ export class ToolbarComponent implements OnInit {
     {name: 'Cartoon Network'},
     {name: 'Disney'},
     {name: 'Python'},
-    {name: 'Pogo'},
+    {name: 'React'},
     {name: 'Angular'},
     {name: 'Music'},
     {name: 'Cartoon Network'},
     {name: 'Disney'},
-    {name: 'Python'},
+    {name: 'JavaScript'},
     {name: 'Pogo'},
     {name: 'Cartoon Network'},
     {name: 'Disney'},
-    {name: 'Python'},
-    {name: 'Pogo'},
+    {name: 'Java'},
+    {name: 'PHP'},
+    {name: 'Photoshop'},
     
   ];
+
+  redirect(){
+    window.location.reload();
+  }
 
   // drop(event: CdkDragDrop<Chips[]>) {
   //   moveItemInArray(this.chips, event.previousIndex, event.currentIndex);

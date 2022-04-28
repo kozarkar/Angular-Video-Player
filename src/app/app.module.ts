@@ -8,16 +8,19 @@ import {VgCoreModule} from '@videogular/ngx-videogular/core';
 import {VgControlsModule} from '@videogular/ngx-videogular/controls';
 import {VgOverlayPlayModule} from '@videogular/ngx-videogular/overlay-play';
 import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
-import { HttpClientModule } from '@angular/common/http';
-import { ToolbarComponent } from './toolbar/toolbar.component';
-import { AppRoutingModule } from './app-routing.module';
+import {HttpClientModule} from '@angular/common/http';
+import {ToolbarComponent} from './toolbar/toolbar.component';
+import {AppRoutingModule} from './app-routing.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatChipsModule} from '@angular/material/chips';
-import { DragDropModule } from '@angular/cdk/drag-drop';
-import { VideoplayerComponent } from './videoplayer/videoplayer.component';
+import {DragDropModule} from '@angular/cdk/drag-drop';
+import {VideoplayerComponent} from './videoplayer/videoplayer.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 @NgModule({
   declarations: [
@@ -39,7 +42,9 @@ import {MatCardModule} from '@angular/material/card';
     MatSidenavModule,
     MatChipsModule,
     DragDropModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

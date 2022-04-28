@@ -1,16 +1,14 @@
 <mat-drawer-container class="example-container">
-  <mat-drawer mode="side" opened style="background-color: #2a2d30; width: 260px;">
-    <button style="background-color: transparent; border: none;" mat-icon-button class="example-icon"
-        aria-label="Example icon-button with menu icon">
-        <mat-icon style="margin-top: 7px; margin-right:5px;">menu</mat-icon>
-    </button>
-    <img src="assets\icons8-youtube.svg"><span style="color: white;">VideoTube<sup
-      style="font-size: small;">IN</sup></span>
-    <hr style="color: white;margin-top: 20px;"> 
+  <mat-drawer mode="side" opened style="background-color: #2a2d30; width: 230px; overflow: hidden;">
+    <div class="title" style="margin-left: 20px;margin-top: 20px; height: 40px;" (click)="redirect()">
+    <img src="assets\icons8-youtube.svg"><span  style="color: white; font-size: 20px;">VideoTube<sup
+      style="font-size: 12px;">IN</sup></span>
+    </div>
+    <hr style="color: white;margin-top: 9px;"> 
 
-    <div class="sides">
+    <div (click)="redirect()" class="sides">
       <mat-icon class="icons">home</mat-icon>
-      <span class="side-text">Home</span>
+      <span class="side-text" >Home</span>
     </div>
     <div class="sides" >
       <mat-icon class="icons">explore</mat-icon>
@@ -37,6 +35,20 @@
     </div>
 
     <hr style="color: white;">
+
+    <div style="margin-top: 20px;">
+      <span style=" margin-left: 15px; " class="side-text">Sign in to like videos, </span>
+    </div>
+    <div  >
+    <span style=" margin-left: 15px; " class="side-text">comment, and subscribe. </span>
+    </div>
+    <div >
+      <button mat-raised-button color="primary" class="signin">
+      <img style="height:30px; color:#2083d4;" src="/assets/user-icon.png">SIGN IN</button>
+    </div>
+    
+    <hr style="color: white;">
+
 
     <div class="sides" >
       <mat-icon class="icons">library_music</mat-icon>
@@ -67,31 +79,19 @@
       <span class="side-text">Fashion & Beauty</span>
     </div>
   </mat-drawer>
-  <style>
-    .vl{
-      border-left: 5px solid white;
-      height: 500px;
-    }
-  </style>
-   <mat-drawer-content style="background-color: #323538;">
-    <mat-toolbar style="background-color: #323538; margin-bottom: none;">
+ 
+   <mat-drawer-content style="background-color: #2a2d30; overflow: hidden; height: 100%; width: 100%;">
+    <mat-toolbar style="background-color: #2a2d30; margin-bottom: none; overflow: hidden;">
       
       <div class="input-group" style="width: 40%; margin-left: 25%;">
         <input type="text" class="form-control search" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <span class="input-group-text" id="basic-addon2"><mat-icon>search</mat-icon></span>
       </div>
-
       <span class="example-spacer"></span>
-      <button mat-icon-button style="background-color: transparent; border: none;" class="example-icon favorite-icon"
-        aria-label="Example icon-button with heart icon">
-        <mat-icon style="color: white;">favorite</mat-icon>
-      </button>
-      <button mat-icon-button style="background-color: transparent; border: none;" class="example-icon"
-        aria-label="Example icon-button with share icon">
-        <mat-icon style="color: white;">share</mat-icon>
-      </button>
+      <button mat-raised-button color="primary" class="signin">
+        <img style="height:30px; color:#2083d4;" src="/assets/user-icon.png">SIGN IN</button>
     </mat-toolbar>
-    <hr style="margin-top: none;">
+    <hr style="margin-top: none; color: white;">
     <div style="margin-left: 50px !important;">
       <mat-chip-list class="example-chip" cdkDropList cdkDropListOrientation="horizontal">
         <mat-chip class="example-box" *ngFor="let vegetable of chips">
@@ -99,8 +99,7 @@
         </mat-chip>
       </mat-chip-list>
     </div>
-    <hr style="margin-bottom: none;">
+    <hr style="margin-bottom: none; color: white;">
     <app-videoplayer></app-videoplayer>
    </mat-drawer-content>
-  
 </mat-drawer-container>

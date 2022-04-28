@@ -1,22 +1,42 @@
 
 <div *ngIf="showMain" class="row">
-  <div (click)="singleView(video.id-1)" class="card" style="width: 22rem; margin-left: 40px; margin-top: 0px; background-color: transparent; border: 2cm; box-shadow: 20cm;" *ngFor="let video of videoList">
-    <video width="320" height="240" controls poster={{video.thumb}}>
+  <div (click)="singleView(video.id-1)" class="card" style="width: 22rem; margin-left: 30px; margin-top: 0px; background-color: transparent; border: 2cm; box-shadow: 20cm;" *ngFor="let video of videoList">
+    <div class="vid-container-main">
+      <video onmouseover="this.play()" onmouseout="this.pause()" width="320" height="240"  poster={{video.thumb}}>
       <source src={{video.url}} type="video/mp4">
-    </video>
+      </video>
+      <div class="bottom-right">{{video.duration}}</div>
+    </div>
     <div class="card-body">
-      <img src={{video.logo}} >
-      <h4 class="card-title" style="font-weight: 500; font-size: medium; color: white; margin-bottom: 5px;">{{video.title}} </h4>
-      <p style="color: gray; margin-bottom: 0px;">{{video.channel}}</p>
-      <p style="color: gray; margin-left: 0px;">{{video.views}} &nbsp;•  {{video.upload_time}}</p>
+      <img src={{video.logo}}>
+      <h4 class="card-title" style="font-weight: 500; font-size: medium; color: white; margin-bottom: 5px;">
+        {{video.title}}</h4>
+      <p style="color: rgb(209, 203, 203); margin-bottom: 0px;">{{video.channel}}</p>
+      <p style="color: rgb(209, 203, 203); margin-left: 40px;">{{video.views}} &nbsp;•  {{video.upload_time}}</p>
     </div> 
   </div>
 </div>
 
 <div *ngIf="!showMain" class="row">
-  <div class="card" style="width: 62rem; margin-left: 40px; margin-top: 15px; background-color: black; border: 2cm;">
-    <video width="960" height="620" controls>
+  <div class="card col md-7" style="margin-left: 40px; background-color: transparent; border: 2cm;  display: flex; position: relative;">
+    <video width="960" height="620" controls autoplay="true">
       <source src={{single.url}} type="video/mp4">
     </video>
+    <div>
+      <img src={{single.logo}} >
+      <h4 class="card-title" style="font-weight: 500; font-size: medium; color: white; margin-bottom: 5px;">{{single.title}} </h4>
+      <h4 style="color: white; margin-bottom: 0px;">{{single.channel}}</h4>
+      <h4 style="color:white;">{{single.views}} &nbsp;•  {{single.upload_time}}</h4>
+    </div>
+  </div>
+  <div class="col md-1"></div>
+  <div class="col md-4" style="background-color: transparent; margin-top: 40px;">
+    <div style="display: flex; position: relative;" *ngFor="let video of videoList" >
+      <div class="vid-container-side ">
+        <img (click)="singleView(video.id-1)"  src={{video.thumb}} style="height: 120px; width: 180px; margin-bottom: 10px;"> 
+         <div class="bottom-right">{{video.duration}}</div>
+      </div>
+     <p style="color: white; margin-left: 5px;">{{video.title}} <br> {{video.channel}} <br> {{video.views}} &nbsp;• {{video.upload_time}} </p>
+    </div>
   </div>
 </div>

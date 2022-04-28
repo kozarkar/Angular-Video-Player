@@ -5,10 +5,36 @@
     border-radius: 50%;
   }
   
-  .card-body h4, p {
+.card-body h4, p {
     position: relative;
     top: 5px;
-    left: 10px;
-    
+    left: 5px;
   }
+
+  .card-body{
+    padding: 1px !important;
+
+  }
+
+  .vid-container-main {
+    width: 320px;
+    height: 210px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .vid-container-side {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.bottom-right{
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  background-color: black;
+  color: white;
+}
   
