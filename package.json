@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
     "@videogular/ngx-videogular": "^5.0.1",
+    "firebase": "^9.7.0",
     "jquery": "^3.6.0",
     "mat-video": "^2.8.1",
     "primeicons": "^5.0.0",
