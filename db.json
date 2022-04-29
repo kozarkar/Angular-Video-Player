@@ -1,0 +1,76 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "title": "Satellite View of Earth",
+      "channel": "Google Earth",
+      "logo":"/assets/icons8-google-earth.svg",
+      "upload_time": "12 minutes ago",
+      "views" : "121K",
+      "thumb" : "/assets/thumb1.png",
+      "duration" : "1:37",
+      "type" : "industry",
+      "url" : "http://static.videogular.com/assets/videos/videogular.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Big Buck Bunny - Episode 2",
+      "channel": "Cartoon Network",
+      "logo": "/assets/icons8-cartoon-network.svg",
+      "upload_time": "45 minutes ago",
+      "views" : "11K",
+      "thumb" : "/assets/thumb2.png",
+      "duration" : "9:56",
+      "type" : "industry",
+      "url" : "http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov"
+    },
+    {
+      "id": 3,
+      "title": "Story of the Witch - Episode 2",
+      "channel": "Disney Plus",
+      "logo": "/assets/icons8-disney-plus-48.png",
+      "upload_time": "2 hours ago",
+      "views" : "500K",
+      "thumb" : "/assets/thumb3.png",
+      "duration" : "10:53",
+      "type" : "industry",
+      "url" : "http://static.videogular.com/assets/videos/elephants-dream.mp4"
+    },
+    {
+      "id": 4,
+      "title": "360 Cam - Home Tour",
+      "channel": "Tech View",
+      "logo" : "/assets/icons8-camera-64.png",
+      "upload_time": "5 hours ago",
+      "views" : "19K",
+      "thumb" : "/assets/thumb4.png",
+      "duration" : "0:27",
+      "type" : "edtech",
+      "url" : "http://static.videogular.com/assets/videos/vr-demo.mp4"
+    },
+    {
+      "id": 5,
+      "title": "Big Buck Bunny - Episode 1",
+      "channel": "Cartoon Network",
+      "logo" : "/assets/icons8-cartoon-network.svg",
+      "upload_time": "1 week ago",
+      "views" : "722K",
+      "thumb" : "/assets/thumb5.png",
+      "duration" : "9:56",
+      "type" : "edtech",
+      "url" : "http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov"
+    },
+    {
+      "id": 6,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "http://static.videogular.com/assets/videos/elephants-dream.mp4"
+    }
+  ]
+}
