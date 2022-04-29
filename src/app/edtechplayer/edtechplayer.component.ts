@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { VideoService } from '../shared/video.service';
 
 @Component({
-  selector: 'app-videoplayer',
-  templateUrl: './videoplayer.component.html',
-  styleUrls: ['./videoplayer.component.css']
+  selector: 'app-edtechplayer',
+  templateUrl: './edtechplayer.component.html',
+  styleUrls: ['./edtechplayer.component.css']
 })
-export class VideoplayerComponent implements OnInit {
- 
+export class EdtechplayerComponent implements OnInit {
+
   videoList:any = [];
   showMain:boolean = true;
   single:any;
@@ -15,11 +15,11 @@ export class VideoplayerComponent implements OnInit {
   constructor(private ser: VideoService) {}
  
   ngOnInit(): void {
-    this.getIndustryContent();
+    this.getEdTechContent();
   }
 
-  getIndustryContent(){
-    this.ser.getIndustryContent()
+  getEdTechContent(){
+    this.ser.getEdtechContent()
     .subscribe(res=>{
       this.videoList = res;
     })

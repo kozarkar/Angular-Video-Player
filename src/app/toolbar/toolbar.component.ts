@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 
@@ -16,7 +17,7 @@ export class ToolbarComponent implements OnInit {
 
   showSide: boolean = true;
 
-  constructor() { }
+  constructor(private router : Router) { }
 
   ngOnInit(): void {
   }
@@ -40,11 +41,11 @@ export class ToolbarComponent implements OnInit {
     
   ];
 
-  redirect(){
-    window.location.reload();
+  openIndustry(){
+    window.location.assign('/toolbar/');
   }
 
-  // drop(event: CdkDragDrop<Chips[]>) {
-  //   moveItemInArray(this.chips, event.previousIndex, event.currentIndex);
-  // }
+  openEdtech(){
+    window.location.assign('/toolbar/edtechplayer');
+  }
 }

@@ -20,13 +20,16 @@ import {VideoplayerComponent} from './videoplayer/videoplayer.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
+import {EdtechplayerComponent} from './edtechplayer/edtechplayer.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    VideoplayerComponent
+    VideoplayerComponent,
+    EdtechplayerComponent
   ],
   imports: [
     BrowserModule,

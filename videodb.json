@@ -9,6 +9,7 @@
       "views" : "121K",
       "thumb" : "/assets/thumb1.png",
       "duration" : "1:37",
+      "type" : "industry",
       "url" : "http://static.videogular.com/assets/videos/videogular.mp4"
     },
     {
@@ -20,6 +21,7 @@
       "views" : "11K",
       "thumb" : "/assets/thumb2.png",
       "duration" : "9:56",
+      "type" : "industry",
       "url" : "http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov"
     },
     {
@@ -31,28 +33,31 @@
       "views" : "500K",
       "thumb" : "/assets/thumb3.png",
       "duration" : "10:53",
+      "type" : "industry",
       "url" : "http://static.videogular.com/assets/videos/elephants-dream.mp4"
     },
     {
       "id": 4,
       "title": "360 Cam - Home Tour",
-      "channel": "Typicode",
+      "channel": "Tech View",
       "logo" : "/assets/icons8-camera-64.png",
       "upload_time": "5 hours ago",
       "views" : "19K",
       "thumb" : "/assets/thumb4.png",
       "duration" : "0:27",
+      "type" : "edtech",
       "url" : "http://static.videogular.com/assets/videos/vr-demo.mp4"
     },
     {
       "id": 5,
       "title": "Big Buck Bunny - Episode 1",
-      "channel": "Typicode",
+      "channel": "Cartoon Network",
       "logo" : "/assets/icons8-cartoon-network.svg",
       "upload_time": "1 week ago",
       "views" : "722K",
       "thumb" : "/assets/thumb5.png",
       "duration" : "9:56",
+      "type" : "edtech",
       "url" : "http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov"
     },
     {
@@ -64,6 +69,7 @@
       "views" : "1M",
       "thumb" : "/assets/thumb6.png",
       "duration" : "10:53",
+      "type" : "edtech",
       "url" : "http://static.videogular.com/assets/videos/elephants-dream.mp4"
     }
   ]

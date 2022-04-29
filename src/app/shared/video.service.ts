@@ -8,9 +8,12 @@ export class VideoService {
 
   constructor(private http : HttpClient) { }
 
-  getContent(){
-    return this.http.get("http://localhost:3000/content");
+  getIndustryContent(){
+    return this.http.get("http://localhost:3000/content?type=industry");
   }
   
+  getEdtechContent(){
+    return this.http.get("http://localhost:3000/content?type=edtech");
+  }
 }
 

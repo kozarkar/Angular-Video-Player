@@ -1,105 +1,31 @@
 <mat-drawer-container class="example-container">
   <mat-drawer mode="side" opened style="background-color: #2a2d30; width: 230px;">
-    <div class="title" style="margin-left: 20px;margin-top: 10px; height: 40px;" (click)="redirect()">
+    <div class="title" style="margin-left: 20px;margin-top: 10px; height: 40px;" (click)="openIndustry()">
     <img src="assets\icons8-youtube.svg"><span  style="color: white; font-size: 20px;">VideoTube<sup
       style="font-size: 12px;">IN</sup></span>
     </div>
     <hr style="color: white;margin-top: 20px;"> 
 
-    <div (click)="redirect()" class="sides">
+    <div (click)="openIndustry()" class="sides">
       <mat-icon class="icons">home</mat-icon>
-      <span class="side-text" >Home</span>
+      <span class="side-text">Industry</span>
     </div>
-    <div class="sides" >
+    <hr style="margin-top: none; color: white;">
+    <div (click)="openEdtech()" class="sides" >
       <mat-icon class="icons">explore</mat-icon>
-      <span class="side-text">Explore</span>
+      <span class="side-text">Edtech</span>
     </div>
-    <div class="sides" >
-      <mat-icon class="icons">stay_current_portrait</mat-icon>
-      <span class="side-text">Shorts</span>
-    </div>
-    <div class="sides" >
-      <mat-icon class="icons">subscriptions</mat-icon>
-      <span class="side-text">Subscriptions</span>
-    </div>
-
-    <hr style="color: white;">
-
-    <div class="sides" >
-      <mat-icon class="icons">video_library</mat-icon>
-      <span class="side-text">Library</span>
-    </div>
-    <div class="sides" >
-      <mat-icon class="icons">history</mat-icon>
-      <span class="side-text">History</span>
-    </div>
-
-    <hr style="color: white;">
-
-    <div style="margin-top: 20px;">
-      <span style=" margin-left: 15px; " class="side-text">Sign in to like videos, </span>
-    </div>
-    <div  >
-    <span style=" margin-left: 15px; " class="side-text">comment, and subscribe. </span>
-    </div>
-    <div >
-    <button mat-raised-button color="primary" class="signin">
-      <img style="height:30px; color:#2083d4;" src="/assets/user-icon.png">SIGN IN</button>
-    </div>
-    
-    <hr style="color: white;">
-
-
-    <div class="sides" >
-      <mat-icon class="icons">library_music</mat-icon>
-      <span class="side-text">Music</span>
-    </div>
-    <div class="sides" >
-      <mat-icon class="icons">rowing</mat-icon>
-      <span class="side-text">Sports</span>
-    </div>
-    <div class="sides" >
-      <mat-icon class="icons">games</mat-icon>
-      <span class="side-text">Gaming</span>
-    </div>
-    <div class="sides" >
-      <mat-icon class="icons">movie</mat-icon>
-      <span class="side-text">Movies</span>
-    </div>
-    <div class="sides" >
-      <mat-icon class="icons">chrome_reader_mode</mat-icon>
-      <span class="side-text">News</span>
-    </div>
-    <div class="sides" >
-      <mat-icon class="icons">live_tv</mat-icon>
-      <span class="side-text">Live</span>
-    </div>
-    <div class="sides" >
-      <mat-icon class="icons">shopping_basket</mat-icon>
-      <span class="side-text">Fashion & Beauty</span>
-    </div>
+    <hr style="margin-top: none; color: white;">
   </mat-drawer>
  
    <mat-drawer-content style="background-color: #2a2d30;">
     <mat-toolbar style="background-color: #2a2d30; margin-bottom: none;">
-      
-      <div class="input-group" style="width: 40%; margin-left: 25%;">
-        <input type="text" class="form-control search" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <span class="input-group-text" id="basic-addon2"><mat-icon>search</mat-icon></span>
-      </div>
       <span class="example-spacer"></span>
       <button mat-raised-button color="primary" class="signin">
-        <img style="height:30px; color:#2083d4;" src="/assets/user-icon.png">SIGN IN</button>
+        <img style="height:30px; color:#2083d4;" src="/assets/user-icon.png">Profile</button>
     </mat-toolbar>
     <hr style="margin-top: none; color: white;">
-    <div style="margin-left: 50px !important;">
-      <mat-chip-list class="example-chip" cdkDropList cdkDropListOrientation="horizontal">
-        <mat-chip class="example-box" *ngFor="let vegetable of chips">
-          {{vegetable.name}}
-        </mat-chip>
-      </mat-chip-list>
-    </div>
-    <hr style="margin-bottom: none; color: white;">
-    <app-videoplayer></app-videoplayer>
+
+   <router-outlet></router-outlet>
    </mat-drawer-content>
 </mat-drawer-container>
