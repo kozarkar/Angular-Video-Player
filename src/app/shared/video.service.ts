@@ -9,11 +9,11 @@ export class VideoService {
   constructor(private http : HttpClient) { }
 
   getIndustryContent(){
-    return this.http.get("http://localhost:3000/content?type=industry");
+    return this.http.get("https://my-json-server.typicode.com/kozarkar/Angular-Video-Player/content?type=industry");
   }
   
   getEdtechContent(){
-    return this.http.get("http://localhost:3000/content?type=edtech");
+    return this.http.get("https://my-json-server.typicode.com/kozarkar/Angular-Video-Player/content?type=edtech");
   }
 }
 
