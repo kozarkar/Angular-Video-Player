@@ -10,7 +10,7 @@
       "thumb" : "/assets/thumb1.png",
       "duration" : "1:37",
       "type" : "industry",
-      "url" : "http://static.videogular.com/assets/videos/videogular.mp4"
+      "url" : "/assets/video1.mp4"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "thumb" : "/assets/thumb2.png",
       "duration" : "9:56",
       "type" : "industry",
-      "url" : "http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov"
+      "url" : "/assets/video2.mov"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "thumb" : "/assets/thumb3.png",
       "duration" : "10:53",
       "type" : "industry",
-      "url" : "http://static.videogular.com/assets/videos/elephants-dream.mp4"
+      "url" : "/assets/video3.mp4"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "thumb" : "/assets/thumb4.png",
       "duration" : "0:27",
       "type" : "edtech",
-      "url" : "http://static.videogular.com/assets/videos/vr-demo.mp4"
+      "url" : "/assets/video4.mp4"
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "thumb" : "/assets/thumb5.png",
       "duration" : "9:56",
       "type" : "edtech",
-      "url" : "http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov"
+      "url" : "/assets/video2.mp4"
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@
       "thumb" : "/assets/thumb6.png",
       "duration" : "10:53",
       "type" : "edtech",
-      "url" : "http://static.videogular.com/assets/videos/elephants-dream.mp4"
+      "url" : "/assets/video3.mp4"
     }
   ]
 }
