@@ -22,7 +22,7 @@
       "thumb" : "/assets/thumb2.png",
       "duration" : "9:56",
       "type" : "industry",
-      "url" : "/assets/video2.mov"
+      "url" : "/assets/video1.mp4"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "thumb" : "/assets/thumb3.png",
       "duration" : "10:53",
       "type" : "industry",
-      "url" : "/assets/video3.mp4"
+      "url" : "/assets/video1.mp4"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "thumb" : "/assets/thumb4.png",
       "duration" : "0:27",
       "type" : "edtech",
-      "url" : "/assets/video4.mp4"
+      "url" : "/assets/video1.mp4"
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "thumb" : "/assets/thumb5.png",
       "duration" : "9:56",
       "type" : "edtech",
-      "url" : "/assets/video2.mp4"
+      "url" : "/assets/video1.mp4"
     },
     {
       "id": 6,
@@ -70,7 +70,8 @@
       "thumb" : "/assets/thumb6.png",
       "duration" : "10:53",
       "type" : "edtech",
-      "url" : "/assets/video3.mp4"
+      "url" : "/assets/video1.mp4"
     }
+
   ]
 }
