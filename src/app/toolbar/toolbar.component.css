@@ -66,10 +66,25 @@
     color: white;
   }
 
-  .title {
-    
-    width: 200px;
+  .title {  
+    max-width: 65px;
+    overflow: hidden;
     height: 64px;
+  }
+
+  .title:hover{
+    overflow: visible;
+  }
+
+  .logo{
+    width: 150px;
+    height: 30px; 
+    margin-left: 20px; 
+    margin-top: 20px; 
+    image-rendering: optimizeQuality;   
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
   }
 
   .signin {
