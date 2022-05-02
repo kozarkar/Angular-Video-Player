@@ -35,11 +35,19 @@
     color: white;
   }
 
-.bottom-right{
+  .bottom{
   position: absolute;
-  bottom: 8px;
-  right: 5px;
-  background-color: black;
+  width: 100%;
+  bottom: 0;
   color: white;
-}
-  
+  align-items: center;
+  background-color: black;
+  /* background-image: linear-gradient( to top, black 30%, rgb(63, 60, 60) 30%, transparent); */
+  }
+
+  .bottom:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+    color: white;
+    background-image: linear-gradient( to bottom, rgb(63, 60, 60) 10%, transparent);
+  }
