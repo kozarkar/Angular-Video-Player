@@ -20,6 +20,7 @@ export class ToolbarComponent implements OnInit {
   constructor(private router : Router) { }
 
   ngOnInit(): void {
+
   }
 
   chips: Chips[] = [
@@ -40,6 +41,10 @@ export class ToolbarComponent implements OnInit {
     {name: 'Photoshop'},
     
   ];
+
+  switchLogo(){
+  
+  }
 
   openIndustry(){
     window.location.assign('/toolbar/');

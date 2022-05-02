@@ -66,8 +66,10 @@
     color: white;
   }
 
-  .title:hover{
-    cursor: pointer;
+  .title {
+    
+    width: 200px;
+    height: 64px;
   }
 
   .signin {
@@ -76,5 +78,11 @@
     margin-left: 25px; 
     margin-top: 15px;
     margin-bottom: 15px; 
+    background-color: #d89559;
+    color: white;
+  }
 
+  .signin:hover {
+    background-color: white;
+    color: #d89559;
   }

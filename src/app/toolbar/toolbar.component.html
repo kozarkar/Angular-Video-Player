@@ -1,13 +1,13 @@
 <mat-drawer-container class="example-container">
   <mat-drawer mode="side" opened style="background-color: #2a2d30; width: 230px;">
-    <div class="title" style="margin-left: 20px;margin-top: 10px; height: 40px;" (click)="openIndustry()">
-    <span><img src="src/assets/phi-logo.png"></span>
-    </div>
-    <hr style="color: white;margin-top: 20px;"> 
+    <div class="title" (click)="openIndustry()">
+      <img src="/assets/phi-full-300.png" alt="cut" style="width: 150px; height: 30px; margin-left: 20px; margin-top: 20px;">
+      </div>
+    <hr style="color: white;"> 
 
     <div (click)="openIndustry()" class="sides">
       <mat-icon class="icons">home</mat-icon>
-      <span class="side-text">Industry</span>
+      <span class="side-text">Industry &nbsp; 4.0</span>
     </div>
     <hr style="margin-top: none; color: white;">
     <div (click)="openEdtech()" class="sides" >
@@ -20,11 +20,10 @@
    <mat-drawer-content style="background-color: #2a2d30;">
     <mat-toolbar style="background-color: #2a2d30; margin-bottom: none;">
       <span class="example-spacer"></span>
-      <button mat-raised-button color="primary" class="signin">
-        <img style="height:30px; color:#2083d4;" src="/assets/user-icon.png">Profile</button>
+      <button mat-raised-button class="signin">
+        Profile</button>
     </mat-toolbar>
     <hr style="margin-top: none; color: white;">
-
-   <router-outlet></router-outlet>
+    <router-outlet></router-outlet>
    </mat-drawer-content>
 </mat-drawer-container>

@@ -8,12 +8,15 @@ export class VideoService {
 
   constructor(private http : HttpClient) { }
 
+  // local db call :  http://localhost:3000/content
+  // hosted db call : https://my-json-server.typicode.com/kozarkar/Angular-Video-Player/content
+
   getIndustryContent(){
-    return this.http.get("https://my-json-server.typicode.com/kozarkar/Angular-Video-Player/content?type=industry");
+    return this.http.get("http://localhost:3000/content?type=industry");
   }
   
   getEdtechContent(){
-    return this.http.get("https://my-json-server.typicode.com/kozarkar/Angular-Video-Player/content?type=edtech");
+    return this.http.get("http://localhost:3000/content?type=edtech");
   }
 }
 
