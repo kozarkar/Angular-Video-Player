@@ -1,19 +1,16 @@
-
 <div *ngIf="showMain" class="row">
   <div (click)="singleView(i)" class="card" style="width: 22rem; margin-left: 30px; margin-top: 0px; background-color: transparent; border: 2cm; box-shadow: 20cm;" 
   *ngFor="let video of videoList let i = index">
     <div class="vid-container-main">
-      <video onmouseover="this.play()" onmouseout="this.pause()" width="320" height="240"  poster={{video.thumb}}>
-      <source src={{video.url}} type="video/mp4">
+      <video  width="320" height="240"  poster={{video.thumb}}>
+        <source src={{video.url}} type="video/mp4">
       </video>
-      <div class="bottom-right">{{video.duration}}</div>
+      <!-- <div class="bottom-left">{{video.title}} </div> 
+      <div class="bottom-right">{{video.duration}}</div> -->
+      <div class="bottom"> 
+        {{video.title}}
     </div>
-    <div class="card-body">
-    
-      <h4 class="card-title" style="font-weight: 500; font-size: medium; color: white; margin-bottom: 5px;">
-        {{video.title}}</h4>
-  
-    </div> 
+    </div>
   </div>
 </div>
   
