@@ -38,6 +38,66 @@
     },
     {
       "id": 4,
+      "title": "Satellite View of Earth",
+      "channel": "Google Earth",
+      "logo":"/assets/icons8-google-earth.svg",
+      "upload_time": "12 minutes ago",
+      "views" : "121K",
+      "thumb" : "/assets/thumb1.png",
+      "duration" : "1:37",
+      "type" : "industry",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 5,
+      "title": "Satellite View of Earth",
+      "channel": "Google Earth",
+      "logo":"/assets/icons8-google-earth.svg",
+      "upload_time": "12 minutes ago",
+      "views" : "121K",
+      "thumb" : "/assets/thumb1.png",
+      "duration" : "1:37",
+      "type" : "industry",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 6,
+      "title": "Satellite View of Earth",
+      "channel": "Google Earth",
+      "logo":"/assets/icons8-google-earth.svg",
+      "upload_time": "12 minutes ago",
+      "views" : "121K",
+      "thumb" : "/assets/thumb1.png",
+      "duration" : "1:37",
+      "type" : "industry",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 7,
+      "title": "Satellite View of Earth",
+      "channel": "Google Earth",
+      "logo":"/assets/icons8-google-earth.svg",
+      "upload_time": "12 minutes ago",
+      "views" : "121K",
+      "thumb" : "/assets/thumb1.png",
+      "duration" : "1:37",
+      "type" : "industry",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 8,
+      "title": "Satellite View of Earth",
+      "channel": "Google Earth",
+      "logo":"/assets/icons8-google-earth.svg",
+      "upload_time": "12 minutes ago",
+      "views" : "121K",
+      "thumb" : "/assets/thumb1.png",
+      "duration" : "1:37",
+      "type" : "industry",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 9,
       "title": "360 Cam - Home Tour",
       "channel": "Tech View",
       "logo" : "/assets/icons8-camera-64.png",
@@ -49,7 +109,7 @@
       "url" : "/assets/video1.mp4"
     },
     {
-      "id": 5,
+      "id": 10,
       "title": "Big Buck Bunny - Episode 1",
       "channel": "Cartoon Network",
       "logo" : "/assets/icons8-cartoon-network.svg",
@@ -61,7 +121,103 @@
       "url" : "/assets/video1.mp4"
     },
     {
-      "id": 6,
+      "id": 11,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 12,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 13,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 14,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 15,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 16,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 17,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 18,
+      "title": "Story of the Witch - Episode 1",
+      "channel": "Disney Plus",
+      "logo" : "/assets/icons8-disney-plus-48.png",
+      "upload_time": "1 month ago",
+      "views" : "1M",
+      "thumb" : "/assets/thumb6.png",
+      "duration" : "10:53",
+      "type" : "edtech",
+      "url" : "/assets/video1.mp4"
+    },
+    {
+      "id": 19,
       "title": "Story of the Witch - Episode 1",
       "channel": "Disney Plus",
       "logo" : "/assets/icons8-disney-plus-48.png",
@@ -72,6 +228,5 @@
       "type" : "edtech",
       "url" : "/assets/video1.mp4"
     }
-
   ]
 }
