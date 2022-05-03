@@ -1,8 +1,17 @@
+<mat-toolbar style="background-color: #2a2d30; margin-bottom: none;">
+  <div style="color: white; margin-top: 5px;" (click)="drawer.toggle()">
+    <mat-icon >menu</mat-icon>
+  </div>
+  <div class="title" >
+   
+    <img class="logo" src="/assets/phi-full-300.png" alt="Phibonacci">
+    </div>
+  <span class="example-spacer"></span>
+  
+</mat-toolbar>
 <mat-drawer-container class="example-container">
-  <mat-drawer mode="side" opened style="background-color: #2a2d30; width: 230px;">
-    <div class="title" (click)="openIndustry()">
-      <img class="logo" src="/assets/phi-full-300.png" alt="Phibonacci">
-      </div>
+  <mat-drawer #drawer mode="side" opened style="background-color: #2a2d30; width: 230px; border: none; ">
+ 
     <hr style="color: white;"> 
 
     <div (click)="openIndustry()" class="sides">
@@ -18,10 +27,7 @@
   </mat-drawer>
  
    <mat-drawer-content style="background-color: #2a2d30;">
-    <mat-toolbar style="background-color: #2a2d30; margin-bottom: none;">
-      <span class="example-spacer"></span>
-      
-    </mat-toolbar>
+  
     <hr style="margin-top: none; color: white;">
     <router-outlet></router-outlet>
    </mat-drawer-content>

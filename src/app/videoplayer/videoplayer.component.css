@@ -1,3 +1,7 @@
+.spacer{
+  margin-bottom: 20px;
+}
+
 .card-body img {
     float: left;
     width: 50px;
@@ -23,10 +27,12 @@
 
   .vid-container-main {
     width: 320px;
-    height: 210px;
+    height: 200px;
     position: relative;
     text-align: center;
     color: white;
+  
+    margin-bottom: 30px;
   }
 
   .vid-container-side {
