@@ -28,6 +28,5 @@ export class EdtechplayerComponent implements OnInit {
   singleView(id: any){
     this.showMain = false;
     this.single = this.videoList[id];
-    console.log(this.single);
   }
 }

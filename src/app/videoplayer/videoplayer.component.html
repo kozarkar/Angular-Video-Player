@@ -14,7 +14,7 @@
   </div>
 </div>
   
-<div *ngIf="!showMain" class="row"> 
+<div *ngIf="!showMain" class="row" style="overflow-x: hidden;"> 
   <div class="card col-md-8"
        style="margin-left: 20px; width:1140px; height: 700px; margin-top: 15px; background-color: transparent; border: 2cm; overflow-x: hidden !important; padding: none;">
     <video class="singlevideo" controls  poster={{single.thumb}} autoplay="true" [muted]="true">
