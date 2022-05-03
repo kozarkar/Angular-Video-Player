@@ -1,7 +1,7 @@
 
 <div *ngIf="showMain" class="row">
   <div class="spacer"></div>
-  <div  class="card" style="width: 22rem; margin-left: 30px; margin-top: 0px; background-color: transparent; border: 2cm; box-shadow: 20cm;" 
+  <div  class="card" style="width: 22rem; margin-left: 20px; margin-top: 0px; background-color: transparent; border: 2cm; box-shadow: 20cm;" 
        *ngFor="let video of videoList let i = index">
     <div (click)="singleView(i)" class="vid-container-main">
       <video  width="320" height="200"  poster={{video.thumb}} muted>
@@ -16,7 +16,7 @@
   
 <div *ngIf="!showMain" class="row"> 
   <div class="card col-md-8"
-       style="margin-left: 20px; width:1140px; height: 700px; margin-top: 15px; background-color: transparent; border: 2cm;">
+       style="margin-left: 20px; width:1140px; height: 700px; margin-top: 15px; background-color: transparent; border: 2cm; overflow-x: hidden !important; padding: none;">
     <video class="singlevideo" controls  poster={{single.thumb}} autoplay="true" [muted]="true">
       <source src={{single.url}} type="video/mp4">
     </video>

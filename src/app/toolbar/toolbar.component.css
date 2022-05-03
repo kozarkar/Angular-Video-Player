@@ -63,6 +63,7 @@
   hr{
     margin-block-start: 5px;
     margin-block-end: 3px;
+    width: auto;
   }
 
   .search{
