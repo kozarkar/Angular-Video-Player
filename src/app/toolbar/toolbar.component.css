@@ -72,7 +72,7 @@
   }
 
   .title {  
-    max-width: 63px;
+    width: 63px;
     overflow: hidden;
     height: 64px;
   }

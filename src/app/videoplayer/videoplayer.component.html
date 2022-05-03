@@ -4,7 +4,7 @@
   <div  class="card" style="width: 22rem; margin-left: 30px; margin-top: 0px; background-color: transparent; border: 2cm; box-shadow: 20cm;" 
        *ngFor="let video of videoList let i = index">
     <div (click)="singleView(i)" class="vid-container-main">
-      <video  width="320" height="200"  poster={{video.thumb}}>
+      <video  width="320" height="200"  poster={{video.thumb}} muted>
         <source src={{video.url}} type="video/mp4">
       </video>
       <div class="bottom"> 
@@ -17,13 +17,13 @@
 <div *ngIf="!showMain" class="row"> 
   <div class="card col-md-8"
        style="margin-left: 20px; width:1140px; height: 700px; margin-top: 15px; background-color: transparent; border: 2cm;">
-    <video class="singlevideo" controls  poster={{single.thumb}} autoplay="true">
+    <video class="singlevideo" controls  poster={{single.thumb}} autoplay="true" [muted]="true">
       <source src={{single.url}} type="video/mp4">
     </video>
     <div class="card-body">
       <h4 class="card-title" style="font-weight: 500; font-size: medium; color: white; margin-bottom: 5px;">
           {{single.title}} </h4>
     </div>
-    <hr style="color: white;">
+    
   </div>
 </div>

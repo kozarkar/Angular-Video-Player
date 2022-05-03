@@ -17,13 +17,13 @@
 <div *ngIf="!showMain" class="row"> 
   <div class="card col-md-8"
        style="margin-left: 20px; width:1140px; height: 700px; margin-top: 15px; background-color: transparent; border: 2cm;">
-    <video class="singlevideo" controls  poster={{single.thumb}} autoplay="true">
+    <video class="singlevideo" controls  poster={{single.thumb}} autoplay="true" [muted]="true">
       <source src={{single.url}} type="video/mp4">
     </video>
     <div class="card-body">
       <h4 class="card-title" style="font-weight: 500; font-size: medium; color: white; margin-bottom: 5px;">
           {{single.title}} </h4>
     </div>
-    <hr style="color: white;">
+    
   </div>
 </div>
