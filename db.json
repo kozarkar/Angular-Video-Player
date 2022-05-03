@@ -90,11 +90,11 @@
     },
     {
       "id": 12,
-      "title": "Story of the Witch - Episode 1",
-      "thumb" : "/assets/thumb6.png",
-      "duration" : "10:53",
-      "type" : "edtech",
-      "url" : "/assets/video1.mp4"
+      "title": "Ohm's Law - NCERT",
+      "thumb" : "/assets/ohm-thumb.png",
+      "duration" : "2:54",
+      "type" : "industry",
+      "url" : "/assets/Ohm's Law - NCERT.mp4"
     },
     {
       "id": 13,
