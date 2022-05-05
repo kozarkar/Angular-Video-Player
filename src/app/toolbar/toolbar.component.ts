@@ -23,29 +23,6 @@ export class ToolbarComponent implements OnInit {
 
   }
 
-  chips: Chips[] = [
-    {name: 'Cartoon Network'},
-    {name: 'Disney'},
-    {name: 'Python'},
-    {name: 'React'},
-    {name: 'Angular'},
-    {name: 'Music'},
-    {name: 'Cartoon Network'},
-    {name: 'Disney'},
-    {name: 'JavaScript'},
-    {name: 'Pogo'},
-    {name: 'Cartoon Network'},
-    {name: 'Disney'},
-    {name: 'Java'},
-    {name: 'PHP'},
-    {name: 'Photoshop'},
-    
-  ];
-
-  switchLogo(){
-  
-  }
-
   openIndustry(){
     window.location.assign('/toolbar/');
   }

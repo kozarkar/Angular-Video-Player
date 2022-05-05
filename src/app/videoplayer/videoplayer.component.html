@@ -4,7 +4,7 @@
   <div  class="card" style="width: 22rem; margin-left: 20px; margin-top: 0px; background-color: transparent; border: 2cm; box-shadow: 20cm;" 
        *ngFor="let video of videoList let i = index">
     <div (click)="singleView(i)" class="vid-container-main">
-      <video  width="320" height="200"  poster={{video.thumb}} muted>
+      <video  width="320" height="200"  poster={{video.thumb}}>
         <source src={{video.url}} type="video/mp4">
       </video>
       <div class="bottom"> 
