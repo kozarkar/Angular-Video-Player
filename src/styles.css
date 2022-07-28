@@ -23,9 +23,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; image-rende
     border-radius: 10px;
   }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 550px) {
     mat-drawer {
-        max-width: 15%;
+        width: 15% !important;
+    }
+    mat-drawer:checked {
+      width: 100% !important
     }
  }
  
